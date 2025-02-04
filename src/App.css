@@ -1,0 +1,32 @@
+:root {
+  --clr-dk: #242424;
+  --clr-lt: rgba(255, 255, 255, 0.87);
+}
+
+#root {
+
+  /* padding: 2rem; */
+  /* text-align: center; */
+}
+
+ul {
+  margin-top: 2em;
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+
+li {
+  list-style: none;
+  text-align: left;
+  padding: 1em 2em;
+  border-radius: 3px;
+  background-color: var(--clr-lt);
+  color: var(--clr-dk);
+}
+
+footer {
+  position: absolute;
+  bottom: 10px;
+  font-size: .8em;
+}
